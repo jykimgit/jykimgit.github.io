@@ -126,7 +126,7 @@ var _wpmejsSettings = {"pluginPath":"\/wp-includes\/js\/mediaelement\/","classPr
     font-stretch: inherit;
     vertical-align: baseline;
 }
-div, section, body {
+a, div, p, section, span, body, img {
     margin: 0;
     padding: 0;
     border: 0;
@@ -197,6 +197,15 @@ body {
 	body{
     	line-height: 1.55556;
 	}
+    #content-6 #section_1 {
+        margin-top: 3.888888888888889rem;
+    }
+    [data-column-mode-xs=single] .masonry-item, [data-xs-width='12'] {
+        width: 100%;
+        max-width: 100%;
+        flex: 0 0 auto;
+        flex-basis: 100%;
+    }
 }
 .column {
     padding-left: .83333rem;
@@ -273,6 +282,181 @@ body > #content-holder > .content-container {
     min-height: 100%;
     top: 0;
     left: 0;
+}
+#content-6 #section_1 {
+    padding-top: 0rem;
+    margin-top: 6.944444444444445rem;
+    z-index: 1;
+}
+#content-holder .content-block .column .content-wrapper [data-module=portfoliogrid] {
+    min-height: 1px;
+}
+#content-holder .masonry {
+    display: flex;
+    flex-direction: row;
+}
+#masonry-content_x1iui1r73 {
+    margin: auto -15px !important;
+}
+.lw_projects .masonry {
+    height: auto !important;
+    display: block !important;
+    padding: 0 15px;
+    flex-wrap: wrap;
+}
+#content-holder .masonry .masonry-item-width {
+    width: 8.33333%;
+}
+.lw_projects .thumb-hover, .lw_projects .masonry-item-width {
+    display: none !important;
+}
+#content-holder .masonry .masonry-item {
+    font-size: 0;
+    line-height: 0;
+    box-sizing: border-box;
+    -webkit-transition: opacity .2s linear;
+}
+.lw_projects .masonry-item {
+    padding: 0 !important;
+    position: static !important;
+    display: block !important;
+    width: auto !important;
+    max-width: 100% !important;
+    margin-bottom: 24px;
+}
+.masonry-content_x1iui1r73-item {
+    margin: 0px;
+}
+a {
+    color: #333333;
+    -webkit-transition: all .2s linear;
+    text-decoration: none;
+}
+.lw_projects .thumb-inner {
+    display: inline !important;
+}
+.thumb .thumb-inner {
+    position: relative;
+    overflow: hidden;
+}
+#content-holder .thumb .thumb-inner .thumb-hover {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.thumb .thumb-inner .thumb-hover {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: top left;
+    opacity: 0;
+    top: 0;
+    z-index: 10;
+    -webkit-transition: all .3s ease;
+}
+#content-holder .thumb .thumb-hover-meta {
+    padding: 2.22rem;
+}
+.is-frontend .thumb-inner .thumb-hover .thumb-hover-meta {
+    -webkit-transition: all .3s ease;
+}
+.thumb .thumb-inner .thumb-hover .thumb-hover-meta {
+    width: 100%;
+}
+.thumb .thumb-inner .thumb-hover .hide-both {
+    display: none;
+}
+#content-holder p {
+    line-height: 1.5555555555556;
+    font-family: 'Noto Serif', serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.thumb .thumb-inner .thumb-hover .thumb-hover-meta p {
+    font-size: inherit!important;
+}
+p:last-child {
+    margin-bottom: 0;
+}
+#content-holder .thumb .thumb-hover-meta .title {
+    color: #ffffff;
+    font-size: 1.33rem;
+    text-transform: none;
+}
+.thumb .thumb-inner .thumb-hover .thumb-hover-meta span {
+    line-height: 1.5;
+}
+[data-font=regular] {
+    font-style: normal;
+    font-weight: 400;
+    font-family: 'Open Sans',Arial,sans-serif;
+}
+#content-holder .thumb .thumb-hover-meta .category {
+    color: #999999;
+    font-size: 1rem;
+    text-transform: none;
+}
+#content-holder .masonry .masonry-item img {
+    max-width: 100%;
+}
+#content-holder .content-block img {
+    font-size: 0;
+    line-height: 0;
+}
+.lw_projects img {
+    display: none;
+    position: fixed;
+    z-index: 10;
+    left: 50%;
+    top: 50%;
+    width: auto !important;
+    height: 30% !important;
+    transition: none !important;
+    transform: scale(0);
+    will-change: transform;
+    pointer-events: none;
+}
+.font_mdemhe99e {
+    font-family: 'Noto Serif', serif;
+    font-weight: 600;
+    font-style: normal;
+}
+#content-holder #content_x1iui1r73 .thumb .post-title {
+    padding-top: 0rem;
+}
+#content-holder [data-module=portfoliogrid] .below-left .post-title {
+    text-align: left;
+}
+#content_x1iui1r73 .thumb .post-title {
+    color: #333333;
+}
+.lw_projects .post-title {
+    font-size: 32px !important;
+    line-height: 32px !important;
+    display: inline !important;
+    vertical-align: middle;
+}
+.thumb .post-title {
+    margin: 0;
+}
+#content_x1iui1r73 .thumb .post-title span {
+    color: #333333;
+    font-size: 0.7777777777777778rem;
+    text-transform: none;
+    padding-top: 0rem;
+}
+.lw_projects .post-title span {
+    white-space: nowrap;
+}
+.lw_projects .post-title > span {
+    display: inline !important;
+    vertical-align: super;
+    margin: 0 30px 0 0;
+}
+.font_4v3bpq4g5 {
+    font-family: 'Noto Serif', serif;
+    font-weight: 400;
+    font-style: normal;
 }
 </style>
 <!--
@@ -546,15 +730,15 @@ body > #content-holder > .content-container {
 						</div>
 					</section>				
 				
-					<section id="section_4ll5pdj1a" class="content-block" data-column-mode-sm="single" data-column-mode-xs="single" >
+					<section id="section_1" class="content-block" data-column-mode-sm="single" data-column-mode-xs="single" >
 						
 						<div class="container">
-						<div id="row_3g3rs8nos" class="row"><div id="column_9y267y1ce" class="column" data-xl-width="12" >
+						<div id="row_1" class="row"><div id="column_1" class="column" data-xl-width="12" >
 					<div class="content-wrapper">
 						
 				<div id="content_x1iui1r73" class="column-content lw_projects" data-module="portfoliogrid" >
 					
-		<div id="masonry-content_x1iui1r73" class="masonry">
+		<div id="masonry-content_x1iui1r73" class="masonry" style="position: relative;">
 			<div class="masonry-item-width"></div>
 			<div id="project-8" class="masonry-item thumb masonry-content_x1iui1r73-item below-left" data-xl-width="4" data-sm-width="6" data-xs-width="12"><a href="https://www.lizvwells.com/project/the-hidden-worlds-of-the-national-parks">
 				<div class="thumb-inner">
@@ -686,7 +870,7 @@ body > #content-holder > .content-container {
 							<div class="post-title">Mood Mixer<span class="font_4v3bpq4g5">Actions on Google Workshop</span></div>
 						</a></div>
 		</div>
-	
+<!--	
 		<script type="text/javascript">
 			(function ($) {
 				$(document).ready(function () {
@@ -732,7 +916,7 @@ body > #content-holder > .content-container {
 				});
 			})(jQuery);
 		</script>
-	
+-->
 				</div>
 			
 					</div>
